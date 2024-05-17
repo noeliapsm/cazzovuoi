@@ -1,0 +1,69 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff; /* Fondo blanco */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333; /* Gris oscuro para el encabezado */
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+section {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form {
+    background-color: #f9f9f9; /* Fondo gris muy claro para el formulario */
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #333; /* Gris oscuro para el botón */
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+footer {
+    background-color: #333; /* Gris oscuro para el pie de página */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
